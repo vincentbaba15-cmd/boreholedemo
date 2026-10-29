@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Precision Borehole Drilling & Geophysical Water Surveys | TerraAqua Geophysics</title>
+  <meta name="title" content="Precision Borehole Drilling & Geophysical Water Surveys | TerraAqua Geophysics" />
+  <meta name="description" content="Certified hydrogeological surveys, 2D electrical resistivity tomography (ERT), Vertical Electrical Sounding (VES), and deep industrial borehole drilling for clean, high-yield groundwater." />
+  <meta name="keywords" content="borehole drilling, geophysical survey, water survey, groundwater exploration, hydrogeology, VES test, 2D electrical resistivity tomography, rotary drilling, water well drilling, DTH hammer drilling" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="TerraAqua Geophysics & Borehole Drilling" />
+  <link rel="canonical" href="https://terraaquageo.com/" />
+
+  <!-- Open Graph / Facebook / WhatsApp (Share Preview) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://terraaquageo.com/" />
+  <meta property="og:title" content="Precision Borehole Drilling & Geophysical Water Surveys" />
+  <meta property="og:description" content="Guaranteed high-yield groundwater discovery with advanced 2D resistivity tomography and heavy rotary drilling." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d0fbb18f15f8?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://terraaquageo.com/" />
+  <meta property="twitter:title" content="Precision Borehole Drilling & Geophysical Water Surveys" />
+  <meta property="twitter:description" content="Guaranteed high-yield groundwater discovery with advanced 2D resistivity tomography and heavy rotary drilling." />
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1541888946425-d0fbb18f15f8?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Schema.org JSON-LD for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "TerraAqua Geophysics & Borehole Drilling",
+    "image": "https://images.unsplash.com/photo-1541888946425-d0fbb18f15f8?auto=format&fit=crop&w=1200&q=80",
+    "description": "Professional hydrogeological surveying, vertical electrical sounding (VES), 2D resistivity tomography, and rotary water borehole drilling services.",
+    "priceRange": "$$",
+    "serviceType": [
+      "Borehole Drilling",
+      "Geophysical Water Survey",
+      "Hydrogeological Site Investigation",
+      "Pumping and Yield Testing",
+      "Borehole Rehabilitation"
+    ],
+    "areaServed": "Global / Regional",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Borehole & Geophysics Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Geophysical Water Survey (VES & 2D Tomography)"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Deep Industrial & Commercial Borehole Drilling"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#070F2B',
+              slate: '#1B1A55',
+              cyan: '#00A8E8',
+              teal: '#007EA7',
+              earth: '#535C91'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- GSAP Animation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <style>
+    /* 2D Scanning beam animation */
+    @keyframes scanBeam {
+      0%, 100% { transform: translateY(0); opacity: 0.15; }
+      50% { transform: translateY(220px); opacity: 0.9; }
+    }
+    .scanner-beam {
+      animation: scanBeam 4s ease-in-out infinite;
+    }
+
+    /* Aquifer groundwater pulsation */
+    @keyframes pulseWater {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    .water-pulse {
+      animation: pulseWater 3s ease-in-out infinite;
+    }
+  </style>
+</head>
+
+<body class="bg-[#070F2B] text-slate-100 font-sans antialiased selection:bg-[#00A8E8] selection:text-[#070F2B]">
+
+  <!-- ================= TOP NAVIGATION ================= -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#070F2B]/90 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#00A8E8] to-[#007EA7] flex items-center justify-center text-white shadow-lg shadow-cyan-500/25">
+          <i data-lucide="waves" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-xl font-black tracking-tight text-white block">TERRA<span class="text-[#00A8E8]">AQUA</span></span>
+          <span class="text-[9px] uppercase tracking-widest text-slate-400 block -mt-1 font-bold">Geophysics & Drilling</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#services" class="hover:text-[#00A8E8] transition-colors">Services</a>
+        <a href="#geophysics" class="hover:text-[#00A8E8] transition-colors">Subsurface Model</a>
+        <a href="#gallery" class="hover:text-[#00A8E8] transition-colors">Project Gallery</a>
+        <a href="#methodology" class="hover:text-[#00A8E8] transition-colors">Methodology</a>
+      </nav>
+
+      <!-- CTA -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="#contact" class="px-5 py-2.5 rounded-lg bg-[#00A8E8] text-[#070F2B] font-bold text-sm hover:bg-cyan-300 transition-all shadow-md shadow-cyan-500/20">
+          Book Water Survey
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button id="mobileMenuBtn" aria-label="Toggle Navigation" class="md:hidden text-slate-300 p-2 focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobileMenu" class="hidden md:hidden px-6 pt-2 pb-6 border-t border-slate-800 bg-[#070F2B] space-y-4">
+      <a href="#services" class="block py-2 text-slate-300 hover:text-cyan-400">Services</a>
+      <a href="#geophysics" class="block py-2 text-slate-300 hover:text-cyan-400">Subsurface Model</a>
+      <a href="#gallery" class="block py-2 text-slate-300 hover:text-cyan-400">Project Gallery</a>
+      <a href="#methodology" class="block py-2 text-slate-300 hover:text-cyan-400">Methodology</a>
+      <a href="#contact" class="block text-center py-2.5 rounded-lg bg-[#00A8E8] text-[#070F2B] font-bold">Book Water Survey</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="relative overflow-hidden pt-12 pb-20 md:pt-20 md:pb-28">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 text-cyan-300 text-xs font-semibold tracking-wide">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+          Certified Hydrogeologists & Heavy Drilling Fleets
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.12]">
+          Scientific Water Surveys. <br />
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#00A8E8] via-cyan-300 to-teal-200">
+            High-Yield Boreholes.
+          </span>
+        </h1>
+
+        <p class="text-slate-300 text-base sm:text-lg max-w-xl leading-relaxed">
+          Never drill blind. We use Vertical Electrical Sounding (VES) and 2D electrical resistivity tomography to accurately locate productive groundwater aquifers before heavy rotary drilling rigs break ground.
+        </p>
+
+        <div class="flex flex-wrap gap-4 pt-3">
+          <a href="#contact" class="px-6 py-3.5 rounded-xl bg-[#00A8E8] text-[#070F2B] font-bold text-sm hover:bg-cyan-300 transition-all shadow-lg shadow-cyan-500/25 flex items-center gap-2">
+            Schedule Field Survey <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="#gallery" class="px-6 py-3.5 rounded-xl border border-slate-700 bg-slate-900/70 hover:bg-slate-800 text-slate-200 font-semibold text-sm transition-all flex items-center gap-2">
+            View Live Projects <i data-lucide="compass" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- SEO Proof Statistics -->
+        <div class="grid grid-cols-3 gap-6 pt-6 border-t border-slate-800">
+          <div>
+            <div class="text-2xl sm:text-3xl font-black text-white">99.4%</div>
+            <div class="text-xs text-slate-400 mt-0.5">Water Strike Accuracy</div>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-black text-cyan-400">450m+</div>
+            <div class="text-xs text-slate-400 mt-0.5">Drilling Capacity</div>
+          </div>
+          <div>
+            <div class="text-2xl sm:text-3xl font-black text-teal-400">1,500+</div>
+            <div class="text-xs text-slate-400 mt-0.5">Surveys Completed</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2D Animated Strata Cross-Section -->
+      <div class="lg:col-span-5" id="geophysics">
+        <div class="bg-gradient-to-b from-slate-900 to-[#1B1A55]/40 p-6 rounded-3xl border border-slate-700 shadow-2xl relative">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+              <i data-lucide="scan" class="w-4 h-4 text-cyan-400"></i> Subsurface Resistivity Scan
+            </span>
+            <span class="text-[11px] font-mono bg-cyan-500/20 text-cyan-300 px-2.5 py-0.5 rounded-full border border-cyan-500/30">
+              Active Sounding
+            </span>
+          </div>
+
+          <div class="relative w-full h-[320px] rounded-2xl overflow-hidden border border-slate-800 bg-[#070F2B]">
+            <!-- 2D Scanner Line -->
+            <div class="scanner-beam absolute left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-cyan-400 to-transparent z-20 pointer-events-none"></div>
+
+            <svg viewBox="0 0 400 320" class="w-full h-full select-none">
+              <!-- Top Soil Layer -->
+              <rect x="0" y="0" width="400" height="45" fill="#334155" />
+              <text x="15" y="28" fill="#94a3b8" font-size="11" font-weight="600">Dry Topsoil (0m - 8m)</text>
+
+              <!-- Weathered Sandstone Layer -->
+              <rect x="0" y="45" width="400" height="75" fill="#475569" />
+              <text x="15" y="85" fill="#cbd5e1" font-size="11" font-weight="600">Fractured Sandstone (8m - 35m)</text>
+
+              <!-- Confined Aquifer Zone -->
+              <rect x="0" y="120" width="400" height="100" fill="#0369a1" class="water-pulse" />
+              <text x="15" y="160" fill="#e0f2fe" font-size="12" font-weight="800">★ High-Yield Confined Water Aquifer (35m - 95m)</text>
+              <text x="15" y="180" fill="#7dd3fc" font-size="10">Resistivity Signature: 90 - 150 Ω·m</text>
+
+              <!-- Hard Basement Rock Layer -->
+              <rect x="0" y="220" width="400" height="100" fill="#0f172a" />
+              <text x="15" y="270" fill="#64748b" font-size="11" font-weight="600">Impermeable Granitic Basement (>95m)</text>
+
+              <!-- Rotary Drill Path -->
+              <line x1="290" y1="0" x2="290" y2="200" stroke="#00A8E8" stroke-width="4" stroke-dasharray="6,4" />
+              <!-- Casing Pipe -->
+              <rect x="284" y="0" width="12" height="130" fill="none" stroke="#f59e0b" stroke-width="2" />
+              <!-- Screen Filter in Water Horizon -->
+              <rect x="284" y="130" width="12" height="70" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="2,2" />
+              <!-- Drill Bit Point -->
+              <circle cx="290" cy="200" r="5" fill="#f59e0b" />
+            </svg>
+
+            <!-- Bottom Floating Tag -->
+            <div class="absolute bottom-3 right-3 bg-slate-900/95 backdrop-blur px-3 py-1.5 rounded-lg border border-slate-700 text-[11px] text-slate-300">
+              Optimal Strike Depth: <span class="text-cyan-400 font-mono font-bold">78.5m</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SERVICES (KEYWORD TARGETED) ================= -->
+  <section id="services" class="py-20 bg-slate-900/50 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs uppercase font-extrabold tracking-widest text-[#00A8E8] mb-2">Our Core Expertise</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-white">Full-Cycle Water Borehole & Geophysical Solutions</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Service 1 -->
+        <article class="p-8 rounded-2xl bg-[#070F2B] border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-800 flex items-center justify-center text-cyan-400 mb-6">
+            <i data-lucide="radar" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Geophysical Water Survey</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Utilizing Schlumberger and Wenner electrode arrays for Vertical Electrical Sounding (VES) and 2D resistivity imaging to identify water tables and avoid saline intrusion.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-2 mb-4">
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> VES Groundwater Profiling</li>
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> Fault & Shear Zone Delineation</li>
+          </ul>
+        </article>
+
+        <!-- Service 2 -->
+        <article class="p-8 rounded-2xl bg-[#070F2B] border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-800 flex items-center justify-center text-cyan-400 mb-6">
+            <i data-lucide="disc" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Rotary & DTH Borehole Drilling</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            High-torque mud rotary drilling for loose sediment formations and pneumatic Down-the-Hole (DTH) hammer rigs capable of crushing hard granitic and basaltic bedrocks.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-2 mb-4">
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> 6" to 14" Industrial Diameters</li>
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> Food-Grade uPVC Screen Casing</li>
+          </ul>
+        </article>
+
+        <!-- Service 3 -->
+        <article class="p-8 rounded-2xl bg-[#070F2B] border border-slate-800 hover:border-cyan-500/50 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-800 flex items-center justify-center text-cyan-400 mb-6">
+            <i data-lucide="activity" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Yield Testing & Water Treatment</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            24 to 72-hour sustained step-drawdown pumping tests to determine aquifer transmissivity, recharge rates, and optimal submersible pump installations.
+          </p>
+          <ul class="text-xs text-slate-300 space-y-2 mb-4">
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> Step-Drawdown & Constant Rate Test</li>
+            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-3.5 h-3.5 text-cyan-400"></i> Solar & Electric Pump Installation</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2D ANIMATED GALLERY WITH REALISTIC FIELD IMAGES ================= -->
+  <section id="gallery" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-[#00A8E8]">Proven Results</span>
+          <h2 class="text-3xl sm:text-4xl font-black text-white mt-1">Field Operations & Survey Gallery</h2>
+          <p class="text-slate-400 text-sm mt-2 max-w-lg">
+            Real deployments covering geophysical exploration, rotary rig mobilization, and high-volume commercial water yields.
+          </p>
+        </div>
+
+        <!-- 2D Animated Filter Tabs -->
+        <div class="flex flex-wrap gap-2 p-1.5 rounded-xl bg-slate-900 border border-slate-800" id="filterContainer">
+          <button data-filter="all" class="gallery-btn px-4 py-2 rounded-lg text-xs font-bold transition-all bg-[#00A8E8] text-[#070F2B]">
+            All Operations
+          </button>
+          <button data-filter="survey" class="gallery-btn px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-300 hover:text-white">
+            Geophysical Surveys
+          </button>
+          <button data-filter="drilling" class="gallery-btn px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-300 hover:text-white">
+            Borehole Drilling
+          </button>
+          <button data-filter="water" class="gallery-btn px-4 py-2 rounded-lg text-xs font-bold transition-all text-slate-300 hover:text-white">
+            Yield & Testing
+          </button>
+        </div>
+      </div>
+
+      <!-- Gallery Grid with High-Resolution Field Photos -->
+      <div id="galleryGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Item 1: Drilling Rig on Site -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="drilling">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1541888946425-d0fbb18f15f8?auto=format&fit=crop&w=800&q=80" 
+              alt="Industrial rotary borehole drilling rig in operation" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-amber-500/90 text-slate-950">
+              Rotary Rig #03
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">Drilling Operation</span>
+            <h3 class="text-base font-bold text-white mt-1">Deep Bedrock Penetration (230m)</h3>
+            <p class="text-xs text-slate-400 mt-2">DTH air hammer drilling through hard granite formations for an agricultural irrigation hub.</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Geophysical Survey / Topography -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="survey">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" 
+              alt="Geophysicist setting up survey resistivity meters" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-cyan-500/90 text-slate-950">
+              VES Schlumberger
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">Geophysical Survey</span>
+            <h3 class="text-base font-bold text-white mt-1">Vertical Electrical Sounding (VES)</h3>
+            <p class="text-xs text-slate-400 mt-2">Acquiring apparent resistivity curves to pinpoint the depth of fractured water-bearing zones.</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Pure Groundwater Discharge -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="water">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=800&q=80" 
+              alt="High volume clean water discharge from drilled borehole" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-emerald-500/90 text-slate-950">
+              26,000 LPH Yield
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-wider">Water Yield Test</span>
+            <h3 class="text-base font-bold text-white mt-1">Step-Drawdown Aquifer Flush</h3>
+            <p class="text-xs text-slate-400 mt-2">Compressor-driven well development revealing high transmissivity clean potable groundwater.</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Survey Geologist in Terrain -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="survey">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" 
+              alt="Field engineering and site inspection for water well" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-cyan-500/90 text-slate-950">
+              Terrain Mapping
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">Geophysical Survey</span>
+            <h3 class="text-base font-bold text-white mt-1">Topographic & Siting Assessment</h3>
+            <p class="text-xs text-slate-400 mt-2">Mapping surface gradients and subsurface geological anomalies to eliminate dry borehole risks.</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Borehole Piping and Casing -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="drilling">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80" 
+              alt="Installation of uPVC borehole casing and gravel pack" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-amber-500/90 text-slate-950">
+              uPVC Class 10
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Well Completion</span>
+            <h3 class="text-base font-bold text-white mt-1">Casing & Quartz Gravel Packing</h3>
+            <p class="text-xs text-slate-400 mt-2">Precision casing slotted screens with graded quartz gravel packing to prevent sand ingress.</p>
+          </div>
+        </div>
+
+        <!-- Item 6: Solar Submersible Pumping Station -->
+        <div class="gallery-card group relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-cyan-500/60 transition-all duration-300" data-category="water">
+          <div class="relative h-64 overflow-hidden bg-slate-950">
+            <img 
+              src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80" 
+              alt="Solar powered borehole submersible pump installation" 
+              loading="lazy"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-3 right-3 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md bg-teal-500/90 text-slate-950">
+              Solar Direct-Drive
+            </span>
+          </div>
+          <div class="p-6">
+            <span class="text-[11px] font-bold text-teal-400 uppercase tracking-wider">Reticulation Systems</span>
+            <h3 class="text-base font-bold text-white mt-1">Off-Grid Solar Water Extraction</h3>
+            <p class="text-xs text-slate-400 mt-2">Automated continuous solar pumping scheme servicing municipal and industrial storage facilities.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DRILLING & SURVEY WORKFLOW ================= -->
+  <section id="methodology" class="py-20 bg-slate-900/40 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs uppercase font-extrabold tracking-widest text-[#00A8E8] mb-2">Scientific Protocol</h2>
+        <p class="text-3xl font-black text-white">How We Secure Maximum Water Yield</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="p-6 rounded-2xl bg-[#070F2B] border border-slate-800">
+          <span class="text-3xl font-black text-cyan-500/40 font-mono">01</span>
+          <h4 class="text-base font-bold text-white mt-2 mb-2">VES Geophysical Survey</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">Mapping resistivity anomalies, fracture zones, and bedrock depth to select the pinpoint coordinate.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#070F2B] border border-slate-800">
+          <span class="text-3xl font-black text-cyan-500/40 font-mono">02</span>
+          <h4 class="text-base font-bold text-white mt-2 mb-2">Rotary Penetration</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">Employing mud rotary or DTH air hammers to reach target aquifer horizons without wall collapses.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#070F2B] border border-slate-800">
+          <span class="text-3xl font-black text-cyan-500/40 font-mono">03</span>
+          <h4 class="text-base font-bold text-white mt-2 mb-2">Screen Casing & Gravel</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">Lowering food-grade pipes and silica packing to filter sediments, followed by air compressor surging.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#070F2B] border border-slate-800">
+          <span class="text-3xl font-black text-cyan-500/40 font-mono">04</span>
+          <h4 class="text-base font-bold text-white mt-2 mb-2">Pumping Test & Handover</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">Executing calibrated step-drawdown tests to certify hourly safe yield and complete installation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT & LEAD FORM ================= -->
+  <section id="contact" class="py-24">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="bg-gradient-to-b from-slate-900 to-[#1B1A55]/40 p-8 sm:p-12 rounded-3xl border border-slate-700 shadow-2xl">
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <h2 class="text-3xl font-black text-white">Book a Geophysical Survey or Drilling Assessment</h2>
+          <p class="text-slate-400 text-sm mt-2">Get an engineering proposal and hydrogeological quote for your site.</p>
+        </div>
+
+        <form class="space-y-6" onsubmit="event.preventDefault(); alert('Survey request registered. Our hydrogeological team will contact you shortly.');">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Client Name / Enterprise</label>
+              <input type="text" required placeholder="Engr. David Cole" class="w-full px-4 py-3 rounded-xl bg-[#070F2B] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 text-sm" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Phone / WhatsApp Number</label>
+              <input type="tel" required placeholder="+1 (555) 019-2834" class="w-full px-4 py-3 rounded-xl bg-[#070F2B] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 text-sm" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Site Location / City</label>
+              <input type="text" required placeholder="State, Region, or GPS Coordinates" class="w-full px-4 py-3 rounded-xl bg-[#070F2B] border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 text-sm" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Select Primary Service</label>
+              <select class="w-full px-4 py-3 rounded-xl bg-[#070F2B] border border-slate-800 text-white focus:outline-none focus:border-cyan-400 text-sm">
+                <option>Complete Package (Geophysical Survey + Borehole Drilling)</option>
+                <option>Geophysical Water Survey (VES & 2D Resistivity)</option>
+                <option>Commercial / Industrial Borehole Drilling</option>
+                <option>Aquifer Yield Pumping Test & Rehabilitation</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="w-full py-4 rounded-xl bg-[#00A8E8] text-[#070F2B] font-extrabold text-sm hover:bg-cyan-300 transition-all shadow-lg shadow-cyan-500/20">
+            Submit Survey Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-slate-800 py-12 bg-[#070F2B] text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <i data-lucide="waves" class="w-5 h-5 text-cyan-400"></i>
+        <span class="font-extrabold text-white tracking-wider">TERRAAQUA GEOPHYSICS & DRILLING LTD.</span>
+      </div>
+      <div>
+        &copy; 2026 TerraAqua Geophysics. Specialized Groundwater & Drilling Solutions.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= 2D INTERACTION SCRIPTS ================= -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Mobile Navigation Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 2D Staggered Gallery Filtering using GSAP
+    const filterButtons = document.querySelectorAll('.gallery-btn');
+    const galleryCards = document.querySelectorAll('.gallery-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // Toggle active button style
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-[#00A8E8]', 'text-[#070F2B]');
+          btn.classList.add('text-slate-300');
+        });
+        button.classList.add('bg-[#00A8E8]', 'text-[#070F2B]');
+        button.classList.remove('text-slate-300');
+
+        // 2D Exit Animation
+        gsap.to(galleryCards, {
+          scale: 0.92,
+          opacity: 0,
+          duration: 0.22,
+          stagger: 0.02,
+          onComplete: () => {
+            galleryCards.forEach(card => {
+              const category = card.getAttribute('data-category');
+              if (filter === 'all' || category === filter) {
+                card.style.display = 'block';
+              } else {
+                card.style.display = 'none';
+              }
+            });
+
+            // 2D Spring Entry Animation for visible items
+            const activeCards = Array.from(galleryCards).filter(c => c.style.display !== 'none');
+            gsap.fromTo(activeCards,
+              { scale: 0.92, opacity: 0, y: 15 },
+              { scale: 1, opacity: 1, y: 0, duration: 0.38, stagger: 0.05, ease: "power2.out" }
+            );
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
